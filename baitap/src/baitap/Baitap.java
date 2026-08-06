@@ -22,7 +22,9 @@ public class Baitap {
         else{
             System.out.print(n + " khong phai so nguyen to\n");
         }
-        System.out.print(Fibonaci(n));
+        for(int i = 0; i <= n; i++){
+            System.out.print(Fibonaci(i) + " ");
+        }
     }
     
     static public boolean KiemTraNguyenTo(int n){
