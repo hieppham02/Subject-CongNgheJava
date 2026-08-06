@@ -1,17 +1,10 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package main.java.vn.edu.eaut.lab1;
 import java.util.*;
-/**
- *
- * @author edoga
- */
+
 public class App {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập n = ");
+        System.out.print("Nhập n = ");  
         int n = scanner.nextInt();
         if(KiemTraNguyenTo(n))
             System.out.print(n + " la so nguyen to\n");
