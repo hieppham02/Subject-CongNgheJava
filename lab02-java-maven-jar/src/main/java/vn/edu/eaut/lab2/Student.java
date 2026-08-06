@@ -20,5 +20,6 @@ public class Student {
     public double getCC() { return cc; }
     public double getGK() { return gk; }
     public double getCk() { return ck; }
+    public void setRank(String rank) {}
     
 }
