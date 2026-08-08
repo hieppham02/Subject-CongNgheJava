@@ -8,6 +8,7 @@ public class Student {
     private double cc;
     private double gk;
     private double ck;
+    private double finalGrade;
 
     public Student(String id, String hoten) {
         this.id = id;
@@ -20,6 +21,13 @@ public class Student {
     public double getCC() { return cc; }
     public double getGK() { return gk; }
     public double getCk() { return ck; }
-    public void setRank(String rank) {}
-    
+    public void setRank(String rank) {
+        this.rank = rank;
+    }
+    public void setFinalGrade(double finalGrade) {
+        this.finalGrade = finalGrade;
+    }
+    public double getFinalGrade() {
+        return finalGrade;
+    }
 }
