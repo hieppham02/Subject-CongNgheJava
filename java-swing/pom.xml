@@ -8,6 +8,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>17</maven.compiler.release>
-        <exec.mainClass>vn.edu.eaut.java.swing.JavaSwing</exec.mainClass>
+        <exec.mainClass>vn.edu.eaut.java.swing.bai7</exec.mainClass>
     </properties>
 </project>
